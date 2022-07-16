@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import MenuButton from './MenuButton'
 
 const menu = [
   { title: 'Главная', path: '/' },
@@ -10,10 +10,22 @@ const menu = [
 
 const Navigation = ({ children }: any) => {
   const router = useRouter()
+  const [small, setSmall] = useState(false)
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', () =>
+        setSmall(window.pageYOffset > 100)
+      )
+    }
+  }, [])
 
   return (
     <>
-      <header className="fixed w-full z-100 transition border-b-2 border-transparent text-gray-50 font-manrope font-bold">
+      <header
+        className={`fixed w-full z-100 transition border-b-2 border-transparent text-gray-50 font-manrope font-bold  ${
+          small ? 'bg-neutral-900/75 border-b-2 border-neutral-800' : ''
+        }`}>
         <div className="container mx-auto px-3">
           <div className="flex justify-between items-center py-4 lg:justify-start lg:space-x-10 select-none">
             <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -23,7 +35,8 @@ const Navigation = ({ children }: any) => {
                 </a>
               </Link>
             </div>
-            <nav className="flex space-x-4 xl:space-x-8">
+            <MenuButton />
+            <nav className="hidden md:flex space-x-4 xl:space-x-8">
               {menu.map((item, index) => {
                 return (
                   <Link key={index} href={item.path}>
