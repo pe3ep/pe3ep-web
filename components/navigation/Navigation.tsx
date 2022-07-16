@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import MenuButton from './MenuButton'
 
 const menu = [
   { title: 'Главная', path: '/' },
@@ -34,7 +35,8 @@ const Navigation = ({ children }: any) => {
                 </a>
               </Link>
             </div>
-            <nav className="flex space-x-4 xl:space-x-8">
+            <MenuButton />
+            <nav className="hidden md:flex space-x-4 xl:space-x-8">
               {menu.map((item, index) => {
                 return (
                   <Link key={index} href={item.path}>
