@@ -74,7 +74,7 @@ const rules = () => {
               )}
             </Tab>
           </Tab.List>
-          <Tab.Panels className="m-2 p-2 border-2 border-neutral-800 rounded-lg w-full max-w-2xl">
+          <Tab.Panels className="m-2 p-2 md:p-4 border-2 border-neutral-800 rounded-lg w-full max-w-2xl">
             <Tab.Panel>
               <p className="font-inter leading-5 lg:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
@@ -96,7 +96,7 @@ const rules = () => {
         </Tab.Group>
       </div>
       <div className="flex justify-center">
-        <div className="mx-2 my-4 border-2 border-amber-800 bg-amber-500/20 p-2 rounded-lg w-full max-w-2xl">
+        <div className="mx-2 my-4 border-2 md:p-4 border-amber-800 bg-amber-500/20 p-2 rounded-lg w-full max-w-2xl">
           <div className="flex items-center">
             <InformationCircleIcon className="h-5 w-5 lg:h-6 lg:w-6 mr-2" />
             <h2 className="font-manrope font-bold text-lg lg:text-xl">Важно</h2>
