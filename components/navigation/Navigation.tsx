@@ -6,6 +6,7 @@ import MenuButton from './MenuButton'
 const menu = [
   { title: 'Главная', path: '/' },
   { title: 'Правила', path: '/rules' },
+  { title: 'Эмоуты', path: '/emotes' },
 ]
 
 const Navigation = ({ children }: any) => {
@@ -24,7 +25,9 @@ const Navigation = ({ children }: any) => {
     <>
       <header
         className={`fixed w-full z-100 transition border-b-2 border-transparent text-gray-50 font-manrope font-bold  ${
-          small ? 'bg-neutral-900/75 border-b-2 border-neutral-800' : ''
+          small
+            ? 'bg-black/25 backdrop-blur-sm border-b-2 border-stone-800 '
+            : ''
         }`}>
         <div className="container mx-auto px-3">
           <div className="flex justify-between items-center py-4 lg:justify-start lg:space-x-10 select-none">

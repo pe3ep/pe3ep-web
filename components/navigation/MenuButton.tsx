@@ -6,6 +6,7 @@ import {
   BookOpenIcon,
   HomeIcon,
   MapIcon,
+  EmojiHappyIcon,
 } from '@heroicons/react/solid'
 
 const MenuButton = () => {
@@ -34,22 +35,32 @@ const MenuButton = () => {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <div className="flex items-center bg-neutral-800 rounded-md p-2">
-                  <HomeIcon className="h-5 w-5 mr-2" />
-                  <Link href="/">
-                    <a>Главная</a>
-                  </Link>
-                </div>
+                <Link href="/">
+                  <a className="flex items-center bg-neutral-800 rounded-md p-2">
+                    <HomeIcon className="h-5 w-5 mr-2" />
+                    Главная
+                  </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <div className="flex items-center bg-neutral-800 rounded-md p-2">
-                  <BookOpenIcon className="h-5 w-5 mr-2" />
-                  <Link href="/rules">
-                    <a>Правила</a>
-                  </Link>
-                </div>
+                <Link href="/rules">
+                  <a className="flex items-center bg-neutral-800 rounded-md p-2">
+                    <BookOpenIcon className="h-5 w-5 mr-2" />
+                    Правила
+                  </a>
+                </Link>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <Link href="/emotes">
+                  <a className="flex items-center bg-neutral-800 rounded-md p-2">
+                    <EmojiHappyIcon className="h-5 w-5 mr-2" />
+                    Эмоуты
+                  </a>
+                </Link>
               )}
             </Menu.Item>
           </Menu.Items>
