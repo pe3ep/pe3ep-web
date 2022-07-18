@@ -1,9 +1,13 @@
 import type { NextPage } from 'next'
 import SocButton from '../components/SocButton'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Главная | Pe3ep</title>
+      </Head>
       <div className="h-screen bg-topography grid place-items-center">
         <div className="max-w-xs flex flex-col gap-8 md:max-w-lg lg:max-w-5xl">
           <div className="">
