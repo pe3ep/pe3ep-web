@@ -24,7 +24,7 @@ const Navigation = ({ children }: any) => {
   return (
     <>
       <header
-        className={`fixed w-full z-100 transition border-b-2 border-transparent text-gray-50 font-manrope font-bold  ${
+        className={`fixed w-full z-50 transition border-b-2 border-transparent text-gray-50 font-manrope font-bold  ${
           small
             ? 'bg-black/25 backdrop-blur-sm border-b-2 border-stone-800 '
             : ''
