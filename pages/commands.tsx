@@ -1,5 +1,5 @@
 import { HashtagIcon } from '@heroicons/react/solid'
-import Image from 'next/image'
+import Head from 'next/head'
 import React from 'react'
 
 const commandList = [
@@ -41,6 +41,10 @@ const commandList = [
 const commands = () => {
   return (
     <>
+      <Head>
+        <title>Команды | Pe3ep</title>
+      </Head>
+
       <div className="h-52 grid place-content-center bg-topography">
         <div className="flex items-center">
           <HashtagIcon className="h-8 w-8 md:h-10 md:w-10 mr-2" />
@@ -54,7 +58,7 @@ const commands = () => {
         {commandList.map((item, index) => (
           <div
             key={index}
-            className="p-4 border-2 border-neutral-800 m-2 rounded-lg">
+            className="p-4 border-2 border-neutral-800 shadow-lg m-2 rounded-lg">
             <h1 className="font-manrope font-bold text-3xl">{item.command}</h1>
             <p className="font-inter text-neutral-400">{item.description}</p>
             <div className="mt-4 p-2 bg-neutral-800 rounded-lg flex flex-col gap-1">
