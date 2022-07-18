@@ -1,11 +1,15 @@
 import React, { Fragment } from 'react'
 import { Tab } from '@headlessui/react'
 import { InformationCircleIcon } from '@heroicons/react/outline'
-import { BookOpenIcon } from '@heroicons/react/solid'
+import { BookOpenIcon, HashtagIcon } from '@heroicons/react/solid'
+import Head from 'next/head'
 
 const rules = () => {
   return (
-    <div className="">
+    <div>
+      <Head>
+        <title>Правила | Pe3ep</title>
+      </Head>
       <div className="h-52 grid place-content-center bg-topography">
         <div className="flex items-center">
           <BookOpenIcon className="h-8 w-8 md:h-10 md:w-10 mr-2" />
@@ -78,29 +82,70 @@ const rules = () => {
               )}
             </Tab>
           </Tab.List>
-          <Tab.Panels className="m-2 p-2 md:p-4 border-2 border-neutral-800 rounded-lg w-full max-w-2xl">
+          <Tab.Panels className="m-2 p-3 md:p-4 border-2 shadow-lg border-neutral-800 rounded-lg w-full max-w-2xl">
             <Tab.Panel>
-              <p className="font-inter leading-5 lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                eos eligendi iusto quas. Minima voluptatem natus eaque animi,
-                officia in commodi cupiditate culpa quibusdam facilis repellat.
-                Animi sapiente et ab sint facilis quo, numquam dolore pariatur
-                fugiat dolores id velit labore aliquid. Sit saepe maxime sequi
-                libero est amet, assumenda obcaecati rerum, voluptatum
-                necessitatibus harum ab nisi alias! Odit iusto modi adipisci
-                officia, assumenda quidem ducimus atque dolore unde. Cum
-                obcaecati minima distinctio quam veritatis odio soluta debitis,
-                quis recusandae, omnis quos id, harum rem ducimus perferendis
-                excepturi iure perspiciatis nobis! Aspernatur eius nisi
-                cupiditate ullam ducimus dolore ipsum delectus?
-              </p>
+              <div className="flex">
+                <div className="flex flex-col gap-3">
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Буллинг запрещён. Мы хотим быть спокойным местом для всех.
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Реклама запрещена, за исключением отдельного канала{' '}
+                    <span className="flex max-w-max items-center p-0.5 bg-indigo-500/50 rounded-md">
+                      <HashtagIcon className="h-5 w-5 mr-1" />
+                      💸〢реклама
+                    </span>
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Доксинг (doxx) запрещён.
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Mini-Mod (или модерирование когда вы не являетесь
+                    модератором) запрещёно.
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Запрещено нарушение условий обслуживания Discord.
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Запрещен обход ограничений, наложенных на пользователя.
+                  </p>
+                  <p className="font-inter font-bold leading-5 lg:text-lg">
+                    Запрещено нарушение условий обслуживания Twitch.
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Запрещено использование символов, искусственно повышающих
+                    приоритет в сортировке.
+                  </p>
+                </div>
+              </div>
             </Tab.Panel>
-            <Tab.Panel>Content 2</Tab.Panel>
+            <Tab.Panel>
+              <div className="flex">
+                <div className="flex flex-col gap-4">
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Запрещено нарушение условий обслуживания Twitch.
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Запрещено попрошайничество и вымогательство.
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Запрещено выдавать себя за другое лицо (введение в
+                    заблуждение).
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Запрещается рассылать спам или заниматься самопродвижением
+                  </p>
+                  <p className="font-inter leading-5 lg:text-lg">
+                    Запрещается флуд (за исключением пасты)
+                  </p>
+                </div>
+              </div>
+            </Tab.Panel>
           </Tab.Panels>
         </Tab.Group>
       </div>
       <div className="flex justify-center">
-        <div className="mx-2 my-4 border-2 md:p-4 border-amber-800 bg-amber-500/20 p-2 rounded-lg w-full max-w-2xl">
+        <div className="mx-2 my-4 border-2 md:p-4 shadow-lg shadow-amber-900/25 border-amber-800 bg-amber-800/20 p-2 rounded-lg w-full max-w-2xl">
           <div className="flex items-center">
             <InformationCircleIcon className="h-5 w-5 lg:h-6 lg:w-6 mr-2" />
             <h2 className="font-manrope font-bold text-lg lg:text-xl">Важно</h2>
