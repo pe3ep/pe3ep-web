@@ -7,6 +7,7 @@ const menu = [
   { title: 'Главная', path: '/' },
   { title: 'Правила', path: '/rules' },
   { title: 'Эмоуты', path: '/emotes' },
+  { title: 'Команды', path: '/commands' },
 ]
 
 const Navigation = ({ children }: any) => {
@@ -25,9 +26,7 @@ const Navigation = ({ children }: any) => {
     <>
       <header
         className={`fixed w-full z-50 transition border-b-2 border-transparent text-gray-50 font-manrope font-bold  ${
-          small
-            ? 'bg-black/25 backdrop-blur-sm border-b-2 border-stone-800 '
-            : ''
+          small ? 'bg-black/25 backdrop-blur-sm' : ''
         }`}>
         <div className="container mx-auto px-3">
           <div className="flex justify-between items-center py-4 lg:justify-start lg:space-x-10 select-none">
