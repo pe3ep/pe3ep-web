@@ -1,12 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
 import { DownloadIcon } from '@heroicons/react/outline'
+import { EmojiHappyIcon } from '@heroicons/react/solid'
 
 const emotes = () => {
   return (
     <div>
       <div className="h-52 grid place-content-center bg-topography">
-        <h1 className="font-manrope font-bold text-3xl lg:text-4xl">Эмоуты</h1>
+        <div className="flex items-center">
+          <EmojiHappyIcon className="h-8 w-8 md:h-10 md:w-10 mr-2" />
+          <h1 className="font-manrope font-bold text-3xl lg:text-4xl">
+            Эмоуты
+          </h1>
+        </div>
       </div>
       <div className="h-12 bg-neutral-900"></div>
       <div className="max-w-5xl mx-auto flex flex-col justify-center px-2">

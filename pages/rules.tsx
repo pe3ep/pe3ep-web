@@ -1,14 +1,18 @@
 import React, { Fragment } from 'react'
 import { Tab } from '@headlessui/react'
 import { InformationCircleIcon } from '@heroicons/react/outline'
+import { BookOpenIcon } from '@heroicons/react/solid'
 
 const rules = () => {
   return (
     <div className="">
       <div className="h-52 grid place-content-center bg-topography">
-        <h1 className="font-manrope font-bold text-3xl lg:text-4xl">
-          Правила чатов
-        </h1>
+        <div className="flex items-center">
+          <BookOpenIcon className="h-8 w-8 md:h-10 md:w-10 mr-2" />
+          <h1 className="font-manrope font-bold text-3xl lg:text-4xl">
+            Правила
+          </h1>
+        </div>
       </div>
       <div className="h-12"></div>
       <div className="flex items-center flex-col px-2">
