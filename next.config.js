@@ -18,6 +18,11 @@ module.exports = {
         destination: 'https://github.com/pe3ep',
         permanent: false,
       },
+      {
+        source: '/donate',
+        destination: 'https://www.donationalerts.com/r/pe3ep',
+        permanent: false,
+      },
     ]
   },
 }

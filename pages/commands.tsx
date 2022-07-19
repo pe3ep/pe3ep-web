@@ -11,7 +11,7 @@ const commandList = [
       authourBadge: <img src="/badges/streamer.png" className="h-5 w-5" />,
       bot: 'Nightbot',
       botBadge: <img src="/badges/verified.png" className="h-5 w-5" />,
-      botResponse: '0.2 800 DPI / скоп 1.0 ',
+      botResponse: '@Pe3epWithYou 0.2 800 DPI / скоп 1.0 ',
     },
   },
   {
@@ -22,7 +22,7 @@ const commandList = [
       authourBadge: <img src="/badges/streamer.png" className="h-5 w-5" />,
       bot: 'Nightbot',
       botBadge: <img src="/badges/verified.png" className="h-5 w-5" />,
-      botResponse: '*код прицела* ',
+      botResponse: '@Pe3epWithYou *код прицела* ',
     },
   },
   {
@@ -33,7 +33,56 @@ const commandList = [
       authourBadge: <img src="/badges/streamer.png" className="h-5 w-5" />,
       bot: 'Nightbot',
       botBadge: <img src="/badges/verified.png" className="h-5 w-5" />,
-      botResponse: 'Мэйн: Алмаз 1 / Альт: без ранга ',
+      botResponse: '@Pe3epWithYou Мэйн: Алмаз 1 / Альт: без ранга ',
+    },
+  },
+  {
+    command: '!discord',
+    description: 'Ссылка на мой Disocrd сервер.',
+    response: {
+      authour: 'Pe3epWithYou',
+      authourBadge: <img src="/badges/streamer.png" className="h-5 w-5" />,
+      bot: 'Nightbot',
+      botBadge: <img src="/badges/verified.png" className="h-5 w-5" />,
+      botResponse:
+        '@Pe3epWithYou Ссылка на мой дискорд чат: https://pe3ep.ru/discord ',
+    },
+  },
+  {
+    command: '!emotes',
+    description:
+      'Ссылка на страницу для скачивания расширений для эмоутов в чате.',
+    response: {
+      authour: 'Pe3epWithYou',
+      authourBadge: <img src="/badges/streamer.png" className="h-5 w-5" />,
+      bot: 'Nightbot',
+      botBadge: <img src="/badges/verified.png" className="h-5 w-5" />,
+      botResponse:
+        '@Pe3epWithYou Расширения для браузера, а также приложение для андройд для наикрутейших смайлов можно найти сдесь: https://pe3ep.ru/emotes',
+    },
+  },
+  {
+    command: '!rules',
+    description: 'Правила моего чата и Discord сервера',
+    response: {
+      authour: 'Pe3epWithYou',
+      authourBadge: <img src="/badges/streamer.png" className="h-5 w-5" />,
+      bot: 'Nightbot',
+      botBadge: <img src="/badges/verified.png" className="h-5 w-5" />,
+      botResponse:
+        '@Pe3epWithYou Правила моего чата находятся на моём сайте: https://pe3ep.ru/rules',
+    },
+  },
+  {
+    command: '!commands',
+    description: 'Ссылка на эту страницу',
+    response: {
+      authour: 'Pe3epWithYou',
+      authourBadge: <img src="/badges/streamer.png" className="h-5 w-5" />,
+      bot: 'Nightbot',
+      botBadge: <img src="/badges/verified.png" className="h-5 w-5" />,
+      botResponse:
+        '@Pe3epWithYou Список и описание моих команд наглядно: https://pe3ep.ru/commands',
     },
   },
 ]
@@ -54,7 +103,7 @@ const commands = () => {
         </div>
       </div>
       <div className="h-12"></div>
-      <div className="grid grid-rows-3 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-[1800px] mx-auto">
+      <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-[1800px] mx-auto">
         {commandList.map((item, index) => (
           <div
             key={index}
