@@ -59,7 +59,7 @@ const Home: NextPage = () => {
               Github
             </SocButton>
             <SocButton
-              href="https://discord.gg/8DrQ6qdE"
+              href="https://discord.gg/k3u992g4dk"
               className="bg-indigo-600 hover:bg-indigo-700">
               <svg
                 viewBox="0 0 71 55"
