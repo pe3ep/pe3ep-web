@@ -38,7 +38,7 @@ const Homepage = () => {
             </div>
             <div className="flex flex-col gap-3">
               <h1 className="font-manrope font-extrabold text-2xl text-center">
-                Modpack v1.0.0a
+                Modpack v1.0.0b
               </h1>
               <p className="leading-5 font-inter font-medium text-neutral-300 text-center">
                 Это мой личный модпак, который я использую каждый день на
@@ -51,9 +51,11 @@ const Homepage = () => {
               <div className="flex justify-center items-center gap-2">
                 <Link href="/latest/pe3ep.zip" passHref>
                   <a target="_blank">
-                    <button className="transition flex items-center justify-center py-2 px-4 bg-red-500 rounded-lg hover:bg-red-500/75">
+                    <button
+                      disabled
+                      className="transition flex items-center justify-center py-2 px-4 bg-red-500/50 rounded-lg">
                       <DownloadIcon className="w-5 h-5 mr-2" />
-                      Скачать
+                      Недоступно
                     </button>
                   </a>
                 </Link>
