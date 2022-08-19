@@ -1,35 +1,19 @@
 import React, { Fragment } from 'react'
 import Link from 'next/link'
 import { Menu, Transition } from '@headlessui/react'
-import {
-  MenuIcon,
-  BookOpenIcon,
-  HomeIcon,
-  MapIcon,
-  EmojiHappyIcon,
-  HashtagIcon,
-} from '@heroicons/react/solid'
+import { MenuIcon, MapIcon, HomeIcon } from '@heroicons/react/solid'
+import { CollectionIcon } from '@heroicons/react/outline'
 
 const menu = [
   {
-    title: 'Главная',
+    title: 'Модпак',
     path: '/',
     icon: <HomeIcon className="h-5 w-5 mr-2" />,
   },
   {
-    title: 'Правила',
-    path: '/rules',
-    icon: <BookOpenIcon className="h-5 w-5 mr-2" />,
-  },
-  {
-    title: 'Эмоуты',
-    path: '/emotes',
-    icon: <EmojiHappyIcon className="h-5 w-5 mr-2" />,
-  },
-  {
-    title: 'Команды',
-    path: '/commands',
-    icon: <HashtagIcon className="h-5 w-5 mr-2" />,
+    title: 'Список модов',
+    path: '/list',
+    icon: <CollectionIcon className="h-5 w-5 mr-2" />,
   },
 ]
 
@@ -70,6 +54,17 @@ const MenuButton = () => {
                   )}
                 </Menu.Item>
               ))}
+              <Menu.Item>
+                {({ active }) => (
+                  <a
+                    href="https://pe3ep.ru"
+                    className="flex items-center justify-center">
+                    <button className="py-2 px-4 rounded-md bg-red-500 text-white font-manrope font-extrabold">
+                      На основной сайт
+                    </button>
+                  </a>
+                )}
+              </Menu.Item>
             </Menu.Items>
           </Transition>
         </Menu>

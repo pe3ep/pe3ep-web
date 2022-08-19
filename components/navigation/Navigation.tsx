@@ -4,10 +4,8 @@ import { useRouter } from 'next/router'
 import MenuButton from './MenuButton'
 
 const menu = [
-  { title: 'Главная', path: '/' },
-  { title: 'Правила', path: '/rules' },
-  { title: 'Эмоуты', path: '/emotes' },
-  { title: 'Команды', path: '/commands' },
+  { title: 'Модпак', path: '/' },
+  { title: 'Список модов', path: '/list' },
 ]
 
 const Navigation = ({ children }: any) => {
@@ -38,7 +36,7 @@ const Navigation = ({ children }: any) => {
               </Link>
             </div>
             <MenuButton />
-            <nav className="hidden md:flex space-x-4 xl:space-x-8">
+            <nav className="hidden md:flex space-x-4 xl:space-x-8 items-center">
               {menu.map((item, index) => {
                 return (
                   <Link key={index} href={item.path}>
@@ -53,6 +51,11 @@ const Navigation = ({ children }: any) => {
                   </Link>
                 )
               })}
+              <a href="https://pe3ep.ru">
+                <button className="py-2 px-4 rounded-md bg-red-500 text-white font-manrope font-extrabold">
+                  На основной сайт
+                </button>
+              </a>
             </nav>
           </div>
         </div>

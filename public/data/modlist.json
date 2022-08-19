@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Sodium",
+    "description": "Modern rendering engine and client-side optimization mod for Minecraft.",
+    "icon": "https://cdn-raw.modrinth.com//data/AANobbMI/icon.png",
+    "link": "https://modrinth.com/mod/sodium"
+  },
+  {
+    "name": "Lithium",
+    "description": "No-compromises game logic/server optimization mod.",
+    "icon": "https://cdn.modrinth.com/data/gvQqBUqZ/icon.png",
+    "link": "https://modrinth.com/mod/lithium"
+  },
+  {
+    "name": "Mod Menu",
+    "description": "Adds a mod menu to view the list of mods you have installed.",
+    "icon": "https://cdn.modrinth.com/data/mOgUt4GM/icon.png",
+    "link": "https://modrinth.com/mod/modmenu"
+  },
+  {
+    "name": "ReplayMod",
+    "description": "A Minecraft Mod to record, relive and share your experience.",
+    "icon": "https://cdn.modrinth.com/data/Nv2fQJo5/icon.png",
+    "link": "https://modrinth.com/mod/replaymod"
+  },
+  {
+    "name": "Capes",
+    "description": "Lets you use capes from OptiFine, LabyMod and other cape mods.",
+    "icon": "https://cdn.modrinth.com/data/89Wsn8GD/icon.png",
+    "link": "https://modrinth.com/mod/capes"
+  },
+  {
+    "name": "Dynamic FPS",
+    "description": "Improve performance when Minecraft is in the background.",
+    "icon": "https://cdn.modrinth.com/data/LQ3K71Q1/icon.png",
+    "link": "https://modrinth.com/mod/dynamic-fps"
+  },
+  {
+    "name": "Iris",
+    "description": "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs.",
+    "icon": "https://cdn.modrinth.com/data/YL57xq9U/icon.webp",
+    "link": "https://modrinth.com/mod/iris"
+  },
+  {
+    "name": "Enhanced Block Entities",
+    "description": "Reduce FPS lag with block entities, as well as customize them with resource packs.",
+    "icon": "https://cdn.modrinth.com/data/OVuFYfre/icon.png",
+    "link": "https://modrinth.com/mod/ebe"
+  },
+  {
+    "name": "No Chat Reports",
+    "description": "Makes chat unreportable (where possible).",
+    "icon": "https://cdn.modrinth.com/data/qQyHxfxd/icon.png",
+    "link": "https://modrinth.com/mod/no-chat-reports"
+  },
+  {
+    "name": "AdvancementInfo",
+    "description": "Show more information about advancement requirements.",
+    "icon": "https://cdn.modrinth.com/data/G1epq3jN/icon.png",
+    "link": "https://modrinth.com/mod/advancementinfo"
+  },
+  {
+    "name": "Animatica",
+    "description": "A mod implementing the OptiFine/MCPatcher animated texture format.",
+    "icon": "https://cdn.modrinth.com/data/PRN43VSY/icon.png",
+    "link": "https://modrinth.com/mod/animatica"
+  },
+  {
+    "name": "AntiGhost",
+    "description": "Get rid of ghost blocks by requesting resends from the server.",
+    "icon": "https://cdn.modrinth.com/data/Jw3Wx1KR/icon.png",
+    "link": "https://modrinth.com/mod/antighost"
+  },
+  {
+    "name": "Auditory",
+    "description": "A mod that expands and improves upon the sound and audio aspects of Minecraft.",
+    "icon": "https://cdn.modrinth.com/data/1LjfkWOR/icon.png",
+    "link": "https://modrinth.com/mod/auditory"
+  },
+  {
+    "name": "Better Mount HUD",
+    "description": "Improves the ingame HUD while riding a mount.",
+    "icon": "https://cdn.modrinth.com/data/kqJFAPU9/icon.png",
+    "link": "https://modrinth.com/mod/better-mount-hud"
+  },
+  {
+    "name": "CIT Resewn",
+    "description": "Re-implements MCPatcher's CIT (custom item textures from optifine resource packs).",
+    "icon": "https://cdn.modrinth.com/data/otVJckYQ/icon.png",
+    "link": "https://modrinth.com/mod/cit-resewn"
+  },
+  {
+    "name": "Colormatic",
+    "description": "Enables resource packs to add and change block and biome colors.",
+    "icon": "https://cdn.modrinth.com/data/V4IQxkZC/icon.png",
+    "link": "https://modrinth.com/mod/colormatic"
+  },
+  {
+    "name": "Continuity",
+    "description": "A Fabric mod that allows for efficient connected textures.",
+    "icon": "https://cdn.modrinth.com/data/1IjD5062/icon.png",
+    "link": "https://modrinth.com/mod/continuity"
+  },
+  {
+    "name": "CrashBrander",
+    "description": "Small mod which adds your (modpack) branding to crash reports, useful for debugging.",
+    "icon": "https://cdn.modrinth.com/data/C9eIZ8sb/icon.png",
+    "link": "https://modrinth.com/mod/crashbrander"
+  },
+  {
+    "name": "Cull Less Leaves",
+    "description": "Cull leaves while looking hot.",
+    "icon": "https://cdn.modrinth.com/data/iG6ZHsUV/icon.png",
+    "link": "https://modrinth.com/mod/cull-less-leaves"
+  },
+  {
+    "name": "Custom Entity Models",
+    "description": "Custom Entity Models suport on Fabric.",
+    "icon": "https://cdn.modrinth.com/data/YOQCucah/icon.png",
+    "link": "https://modrinth.com/mod/cem"
+  },
+  {
+    "name": "Custom Entity Models",
+    "description": "Custom Entity Models suport on Fabric.",
+    "icon": "https://cdn.modrinth.com/data/YOQCucah/icon.png",
+    "link": "https://modrinth.com/mod/cem"
+  }
+]
