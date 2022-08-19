@@ -120,9 +120,171 @@
     "link": "https://modrinth.com/mod/cem"
   },
   {
-    "name": "Custom Entity Models",
-    "description": "Custom Entity Models suport on Fabric.",
-    "icon": "https://cdn.modrinth.com/data/YOQCucah/icon.png",
-    "link": "https://modrinth.com/mod/cem"
+    "name": "Debugify",
+    "description": "Fixes Minecraft bugs found on the bug tracker.",
+    "icon": "https://cdn.modrinth.com/data/QwxR6Gcd/d1db8e74a5ad29908bd011ce271145cea349cd13.png",
+    "link": "https://modrinth.com/mod/debugify"
+  },
+  {
+    "name": "Disable Insecure Chat Toast",
+    "description": "This mod deletes warning toast about connecting to a server without enforce secure chat.",
+    "icon": "https://cdn.modrinth.com/data/i090SePT/icon.png",
+    "link": "https://modrinth.com/mod/disableinsecurechattoast"
+  },
+  {
+    "name": "Entity Texture Features",
+    "description": "Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric.",
+    "icon": "https://cdn.modrinth.com/data/BVzZfTc1/8652b3d18c262b33e0cf194d402977897267573a.png",
+    "link": "https://modrinth.com/mod/entitytexturefeatures"
+  },
+  {
+    "name": "EntityCulling",
+    "description": "Using async path-tracing to hide Block-/Entities that are not visible.",
+    "icon": "https://cdn.modrinth.com/data/NNAgCjsB/icon.png",
+    "link": "https://modrinth.com/mod/entityculling"
+  },
+  {
+    "name": "Fabrishot",
+    "description": "Take insanely large screenshots because why not.",
+    "icon": "https://cdn.modrinth.com/data/3qsfQtE9/icon.png",
+    "link": "https://modrinth.com/mod/fabrishot"
+  },
+  {
+    "name": "FerriteCore",
+    "description": "Memory usage optimizations.",
+    "icon": "https://cdn.modrinth.com/data/uXXizFIs/icon.jpg",
+    "link": "https://modrinth.com/mod/ferrite-core"
+  },
+  {
+    "name": "Gamma Utils",
+    "description": "Gamma / brightness / night vision mod, making it easy to see in the dark. Basically fullbright for Fabric.",
+    "icon": "https://cdn.modrinth.com/data/wdLuzzEP/cb4cdbbc3e39ddb1e04a3cadb4408a2e74385010.png",
+    "link": "https://modrinth.com/mod/gamma-utils"
+  },
+  {
+    "name": "Item Model Fix",
+    "description": "A Fabric mod that fixes gaps in generated item models.",
+    "icon": "https://cdn.modrinth.com/data/B3HO5V57/icon.png",
+    "link": "https://modrinth.com/mod/item-model-fix"
+  },
+  {
+    "name": "LambdaBetterGrass",
+    "description": "A Minecraft mod which adds better grass and snow to the game.",
+    "icon": "https://cdn.modrinth.com/data/2Uev7LdA/icon.png",
+    "link": "https://modrinth.com/mod/lambdabettergrass"
+  },
+  {
+    "name": "LambDynamicLights",
+    "description": "A dynamic lights mod for Fabric.",
+    "icon": "https://cdn.modrinth.com/data/yBW8D80W/icon.png",
+    "link": "https://modrinth.com/mod/lambdynamiclights"
+  },
+  {
+    "name": "Language Reload",
+    "description": "Reduces load times and adds fallbacks for languages.",
+    "icon": "https://cdn.modrinth.com//data/uLbm7CG6/icon.png",
+    "link": "https://modrinth.com/mod/language-reload"
+  },
+  {
+    "name": "LazyDFU",
+    "description": "Makes the game boot faster by deferring non-essential initialization.",
+    "icon": "https://cdn.modrinth.com/data/hvFnDODi/icon.png",
+    "link": "https://modrinth.com/mod/lazydfu"
+  },
+  {
+    "name": "Main Menu Credits",
+    "description": "Adds a way of adding information to the user's title screen.",
+    "icon": "https://cdn.modrinth.com/data/qJDfP7WN/a165364b9f1e40d977e22605f5bc2969059ff998.png",
+    "link": "https://modrinth.com/mod/main-menu-credits"
+  },
+  {
+    "name": "MidnightControls",
+    "description": "Adds controller support and enhanced controls overall.",
+    "icon": "https://cdn.modrinth.com/data/bXX9h73M/icon.svg",
+    "link": "https://modrinth.com/mod/midnightcontrols"
+  },
+  {
+    "name": "Mixin Conflict Helper",
+    "description": "User-friendly errors for Mixin conflicts.",
+    "icon": "https://cdn.modrinth.com/data/MR1VIQJJ/77a3f88c6e69a4e92b464c16cb05c797e0eda636.png",
+    "link": "https://modrinth.com/mod/mixin-conflict-helper"
+  },
+  {
+    "name": "More Culling",
+    "description": "A mod that changes how multiple types of culling are handled in order to improve performance.",
+    "icon": "https://cdn.modrinth.com/data/51shyZVL/icon.png",
+    "link": "https://modrinth.com/mod/moreculling"
+  },
+  {
+    "name": "MoreChatHistory",
+    "description": "Increases the maximum length of chat history.",
+    "icon": "https://cdn.modrinth.com/data/8qkXwOnk/icon.png",
+    "link": "https://modrinth.com/mod/morechathistory"
+  },
+  {
+    "name": "Ngrok LAN",
+    "description": "Share your singleplayer world as a server for you and your friends across the globe, in one click.",
+    "icon": "https://cdn.modrinth.com/data/oTa1qz6R/icon.png",
+    "link": "https://modrinth.com/mod/ngrok-lan"
+  },
+  {
+    "name": "No Fade",
+    "description": "Remove fade out animations in Minecraft.",
+    "icon": "https://cdn.modrinth.com/data/WwT5TcIT/icon.png",
+    "link": "https://modrinth.com/mod/no-fade"
+  },
+  {
+    "name": "Not Enough Crashes",
+    "description": "When crashing, you can go back to the title screen and keep playing, without needing to restart, alongside other things to make crashes more pleasant.",
+    "icon": "https://cdn.modrinth.com/data/yM94ont6/icon.png",
+    "link": "https://modrinth.com/mod/notenoughcrashes"
+  },
+  {
+    "name": "OptiGUI",
+    "description": "A drop-in replacement for OptiFine custom GUIs.",
+    "icon": "https://cdn.modrinth.com/data/JuksLGBQ/icon.png",
+    "link": "https://modrinth.com/mod/optigui"
+  },
+  {
+    "name": "Pick Block Pro",
+    "description": "An advanced client side Block, Entity, NBT, Tool and ID picker (Fabric).",
+    "icon": "https://cdn.modrinth.com/data/6kI7U1sT/6f931c67d50a7e0df4f956e38ce73b875245c896.png",
+    "link": "https://modrinth.com/mod/pick-block-pro"
+  },
+  {
+    "name": "Puzzle",
+    "description": "Adds resourcepack features and a GUI to more conveniently configure OptiFine alternatives.",
+    "icon": "https://cdn.modrinth.com/data/3IuO68q1/icon.png",
+    "link": "https://modrinth.com/mod/puzzle"
+  },
+  {
+    "name": "Smooth Boot",
+    "description": "Improve Minecraft CPU scheduling.",
+    "icon": "https://cdn.modrinth.com/data/FWumhS4T/icon.png",
+    "link": "https://modrinth.com/mod/smoothboot-fabric"
+  },
+  {
+    "name": "Starlight",
+    "description": "Rewrites the light engine to fix lighting performance and lighting errors.",
+    "icon": "https://cdn.modrinth.com/data/H8CaAYZC/icon.png",
+    "link": "https://modrinth.com/mod/starlight"
+  },
+  {
+    "name": "ToolTipFix",
+    "description": "Fixes Tooltips from runnning off the screen.",
+    "icon": "https://cdn.modrinth.com/data/2RKFTmiB/e2ebd2a3e0b5f30ed8d1084b79c568895a12f656.png",
+    "link": "https://modrinth.com/mod/tooltipfix"
+  },
+  {
+    "name": "YOSBR",
+    "description": "Your options shall be respected.",
+    "icon": "https://cdn.modrinth.com/data/WwbubTsV/icon.png",
+    "link": "https://modrinth.com/mod/yosbr"
+  },
+  {
+    "name": "Zoomify",
+    "description": "A zoom mod with infinite customizability.",
+    "icon": "https://modrinth.com/mod/zoomify",
+    "link": "https://modrinth.com/mod/zoomify"
   }
 ]
