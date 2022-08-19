@@ -11,7 +11,7 @@ const Homepage = () => {
         <title>Модпак | Pe3ep</title>
         <meta
           name="description"
-          content="Страница загрузки Minecraft модпака Pe3ep's Modpack."
+          content="Страница загрузки модпака Pe3ep's Modpack."
         />
         <meta name="robots" content="index, follow" />
       </Head>
