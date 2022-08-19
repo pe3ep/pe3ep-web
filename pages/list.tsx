@@ -83,13 +83,7 @@ const list = ({ data }: any) => {
                 <a href={item.link} target="_blank">
                   <button className="transition py-2 px-4 flex justify-center items-center font-inter font-semibold text-black rounded-lg gap-1 bg-[#1bd96a] hover:bg-[#1bd96a]/75 ">
                     <div className="w-5 h-5">
-                      <Image
-                        src="/icons/modrinth.svg"
-                        height="20"
-                        width="20"
-                        blurDataURL="/icons/modrinth.svg"
-                        placeholder="blur"
-                      />
+                      <Image src="/icons/modrinth.svg" height="20" width="20" />
                     </div>
                     Modrinth
                   </button>
