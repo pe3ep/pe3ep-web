@@ -1,8 +1,10 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { DownloadIcon } from '@heroicons/react/outline'
 import { Fragment, useState } from 'react'
+import copy from 'copy-to-clipboard'
 
 export default function MyModal(props: any) {
+  const [copied, setCopied] = useState(false)
   return (
     <>
       <Transition appear show={props.isOpen} as={Fragment}>
@@ -44,13 +46,28 @@ export default function MyModal(props: any) {
                     </p>
                   </div>
 
-                  <div className="mt-4 flex gap-4 justify-center items-center">
+                  <div className="mt-4 flex gap-2 justify-center items-center">
                     <button
                       type="button"
-                      className="text-white flex justify-center items-center py-2 px-4 bg-red-500 rounded-lg"
-                      onClick={props.closeModal}>
+                      className="text-white flex justify-center items-center py-2 px-4 bg-red-500 rounded-lg">
                       <img src="/icons/zip.png" className="w-5 h-5 mr-2" />
                       Скачать .zip
+                    </button>
+                    <button
+                      type="button"
+                      className={`${
+                        copied ? 'bg-green-600' : 'bg-red-500'
+                      } transition text-white flex justify-center items-center py-2 px-4 rounded-lg`}
+                      onClick={() => {
+                        copy('No link for now hahaha')
+                        setCopied(true)
+                        setTimeout(() => setCopied(false), 1500)
+                      }}>
+                      <img
+                        src="/icons/minecraft.png"
+                        className="w-5 h-5 mr-2"
+                      />
+                      Ссылка MultiMC
                     </button>
                   </div>
                 </Dialog.Panel>

@@ -12,6 +12,7 @@
     "framer-motion": "^7.2.0",
     "next": "latest",
     "react": "18.1.0",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.1.0"
   },
   "devDependencies": {

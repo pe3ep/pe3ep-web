@@ -63,9 +63,11 @@ const Homepage = () => {
               <div className="flex justify-center items-center gap-2">
                 <button
                   onClick={() => setIsOpen(true)}
-                  className="transition flex items-center justify-center py-2 px-4 bg-red-500 hover:bg-red-500/75 rounded-lg">
+                  disabled
+                  className="transition flex items-center justify-center py-2 px-4 disabled:bg-red-500/25 enabled:bg-red-500 enabled:hover:bg-red-500/75 rounded-lg">
                   <DownloadIcon className="w-5 h-5 mr-2" />
-                  Скачать
+                  {/* Скачать */}
+                  Недоступно
                 </button>
 
                 <Link href="/list">
