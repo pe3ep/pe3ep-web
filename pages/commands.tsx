@@ -107,10 +107,14 @@ const commands = () => {
         {commandList.map((item, index) => (
           <div
             key={index}
-            className="p-4 border-2 border-neutral-800 shadow-lg m-2 rounded-lg">
-            <h1 className="font-manrope font-bold text-3xl">{item.command}</h1>
-            <p className="font-inter text-neutral-400">{item.description}</p>
-            <div className="mt-4 p-2 bg-neutral-800 rounded-lg flex flex-col gap-1">
+            className="p-4 border-2 border-neutral-800 shadow-lg m-2 rounded-lg flex flex-col justify-between">
+            <div className="">
+              <h1 className="font-manrope font-bold text-3xl">
+                {item.command}
+              </h1>
+              <p className="font-inter text-neutral-400">{item.description}</p>
+            </div>
+            <div className="mt-4 p-4 h-full bg-black/20 rounded-lg flex flex-col gap-1">
               <p className="font-inter flex items-center text-neutral-300">
                 <span className="mr-1">{item.response.authourBadge}</span>
                 <span className="text-amber-500 font-semibold">
