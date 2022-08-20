@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, forwardRef } from 'react'
 import Link from 'next/link'
 import { Menu, Transition } from '@headlessui/react'
 import {
@@ -33,6 +33,17 @@ const menu = [
   },
 ]
 
+const MyLink: any = forwardRef((props, ref) => {
+  let { href, children, ...rest }: any = props
+  return (
+    <Link href={href}>
+      <a ref={ref} {...rest}>
+        {children}
+      </a>
+    </Link>
+  )
+})
+
 const MenuButton = () => {
   return (
     <>
@@ -61,12 +72,12 @@ const MenuButton = () => {
               {menu.map((item, index) => (
                 <Menu.Item key={index}>
                   {({ active }) => (
-                    <Link href={item.path}>
+                    <MyLink href={item.path}>
                       <a className="flex items-center bg-neutral-800 rounded-md p-2">
                         {item.icon}
                         {item.title}
                       </a>
-                    </Link>
+                    </MyLink>
                   )}
                 </Menu.Item>
               ))}
