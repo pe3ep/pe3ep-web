@@ -92,6 +92,7 @@ const list = ({ data }: any) => {
             </div>
           ))}
         </div>
+
         <div className="h-12"></div>
       </main>
       <AnimatePresence>
@@ -114,7 +115,7 @@ const list = ({ data }: any) => {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch(`https://mods.pe3ep.ru/data/modlist.json`)
   const data = await res.json()
 
