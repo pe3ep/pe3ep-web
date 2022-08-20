@@ -3,8 +3,20 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { DownloadIcon, CollectionIcon } from '@heroicons/react/outline'
+import MyDialog from '../components/Dialog'
+import { useState } from 'react'
 
 const Homepage = () => {
+  let [isOpen, setIsOpen] = useState(false)
+
+  function closeModal() {
+    setIsOpen(false)
+  }
+
+  function openModal() {
+    setIsOpen(true)
+  }
+
   return (
     <>
       <Head>
@@ -49,16 +61,13 @@ const Homepage = () => {
                 .
               </p>
               <div className="flex justify-center items-center gap-2">
-                <Link href="/latest/pe3ep.zip" passHref>
-                  <a target="_blank">
-                    <button
-                      disabled
-                      className="transition flex items-center justify-center py-2 px-4 bg-red-500/50 rounded-lg">
-                      <DownloadIcon className="w-5 h-5 mr-2" />
-                      Недоступно
-                    </button>
-                  </a>
-                </Link>
+                <button
+                  onClick={() => setIsOpen(true)}
+                  className="transition flex items-center justify-center py-2 px-4 bg-red-500 hover:bg-red-500/75 rounded-lg">
+                  <DownloadIcon className="w-5 h-5 mr-2" />
+                  Скачать
+                </button>
+
                 <Link href="/list">
                   <button className="transition flex items-center justify-center py-2 px-4 bg-neutral-700 rounded-lg hover:bg-neutral-700/75">
                     <CollectionIcon className="w-5 h-5 mr-2" />
@@ -69,6 +78,12 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+        <MyDialog
+          closeModal={() => closeModal()}
+          openModal={() => openModal()}
+          isOpen={isOpen}
+          setIsOpen={() => setIsOpen(!isOpen)}
+        />
       </main>
     </>
   )
