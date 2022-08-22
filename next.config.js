@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['cdn-raw.modrinth.com', 'cdn.modrinth.com'],
+    domains: ['cdn-raw.modrinth.com', 'cdn.modrinth.com', 'media.forgecdn.net'],
   },
 }

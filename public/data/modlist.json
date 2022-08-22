@@ -78,6 +78,12 @@
     "link": "https://modrinth.com/mod/auditory"
   },
   {
+    "name": "Auto Crouch",
+    "description": "Automatically crouches when opening a GUI.",
+    "icon": "https://cdn.modrinth.com/data/OcVQsnUW/54e4340258d7eb820e552a2ca3722a3cae3c4aa2.png",
+    "link": "https://modrinth.com/mod/auto-crouch"
+  },
+  {
     "name": "Better Mount HUD",
     "description": "Improves the ingame HUD while riding a mount.",
     "icon": "https://cdn.modrinth.com/data/kqJFAPU9/icon.png",
@@ -130,6 +136,18 @@
     "description": "This mod deletes warning toast about connecting to a server without enforce secure chat.",
     "icon": "https://cdn.modrinth.com/data/i090SePT/icon.png",
     "link": "https://modrinth.com/mod/disableinsecurechattoast"
+  },
+  {
+    "name": "Draggable Resource Packs",
+    "description": "Makes resource packs draggable instead of needing to click buttons.",
+    "icon": "https://cdn.modrinth.com/data/aLcHfalx/icon.png",
+    "link": "https://modrinth.com/mod/draggable-resource-packs"
+  },
+  {
+    "name": "EasierVillagerTrading",
+    "description": "Fewer clicks to trade with villagers.",
+    "icon": "https://cdn.modrinth.com/data/ChscgScW/icon.png",
+    "link": "https://modrinth.com/mod/easiervillagertrading"
   },
   {
     "name": "Entity Texture Features",
@@ -188,8 +206,13 @@
   {
     "name": "LazyDFU",
     "description": "Makes the game boot faster by deferring non-essential initialization.",
-    "icon": "https://cdn.modrinth.com/data/hvFnDODi/icon.png",
+    "icon": "https://media.forgecdn.net/avatars/thumbnails/181/712/64/64/636802492918868562.jpeg",
     "link": "https://modrinth.com/mod/lazydfu"
+  },
+  {
+    "name": "Litematica",
+    "description": "Litematica is a new schematic mod written from scratch, and it is primarily targeting light mod loaders like LiteLoader on 1.12.x, Rift on 1.13.x and Fabric on 1.14+.",
+    "icon": "https://cdn.modrinth.com/data/hvFnDODi/icon.png"
   },
   {
     "name": "Main Menu Credits",
@@ -258,6 +281,12 @@
     "link": "https://modrinth.com/mod/puzzle"
   },
   {
+    "name": "ShulkerBoxTooltip",
+    "description": "View the contents of shulker boxes from your inventory.",
+    "icon": "https://cdn.modrinth.com/data/2M01OLQq/77adff9aebf1172f6fcd668fc83a4785b3d8c2ab.png",
+    "link": "https://modrinth.com/mod/shulkerboxtooltip"
+  },
+  {
     "name": "Smooth Boot",
     "description": "Improve Minecraft CPU scheduling.",
     "icon": "https://cdn.modrinth.com/data/FWumhS4T/icon.png",
@@ -268,6 +297,12 @@
     "description": "Rewrites the light engine to fix lighting performance and lighting errors.",
     "icon": "https://cdn.modrinth.com/data/H8CaAYZC/icon.png",
     "link": "https://modrinth.com/mod/starlight"
+  },
+  {
+    "name": "Status Effect Timer",
+    "description": "Overlay a timer on the Vanilla status effect HUD icons.",
+    "icon": "https://cdn.modrinth.com/data/T9FDHbY5/icon.png",
+    "link": "https://modrinth.com/mod/statuseffecttimer"
   },
   {
     "name": "ToolTipFix",
