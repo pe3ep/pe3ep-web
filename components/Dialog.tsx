@@ -47,19 +47,21 @@ export default function MyModal(props: any) {
                   </div>
 
                   <div className="mt-4 flex gap-2 justify-center items-center">
-                    <button
-                      type="button"
-                      className="text-white flex justify-center items-center py-2 px-4 bg-red-500 rounded-lg">
-                      <img src="/icons/zip.png" className="w-5 h-5 mr-2" />
-                      Скачать .zip
-                    </button>
+                    <a href="/latest/latest.zip" download>
+                      <button
+                        type="button"
+                        className="text-white flex justify-center items-center py-2 px-4 bg-red-500 rounded-lg">
+                        <img src="/icons/zip.png" className="w-5 h-5 mr-2" />
+                        Скачать .zip
+                      </button>
+                    </a>
                     <button
                       type="button"
                       className={`${
                         copied ? 'bg-green-600' : 'bg-red-500'
                       } transition text-white flex justify-center items-center py-2 px-4 rounded-lg`}
                       onClick={() => {
-                        copy('No link for now hahaha')
+                        copy('https://mods.pe3ep.ru/latest/multimc.zip')
                         setCopied(true)
                         setTimeout(() => setCopied(false), 1500)
                       }}>
@@ -69,6 +71,16 @@ export default function MyModal(props: any) {
                       />
                       Ссылка MultiMC
                     </button>
+                  </div>
+                  <div className="mt-4">
+                    <iframe
+                      width={396}
+                      height={223}
+                      src="https://www.youtube.com/embed/Ojh4kx1ILuc?controls=2&showinfo=0"
+                      title="YouTube video player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                      className="rounded-lg"
+                      allowFullScreen></iframe>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>

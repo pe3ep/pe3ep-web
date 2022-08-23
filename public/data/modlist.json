@@ -206,13 +206,13 @@
   {
     "name": "LazyDFU",
     "description": "Makes the game boot faster by deferring non-essential initialization.",
-    "icon": "https://media.forgecdn.net/avatars/thumbnails/181/712/64/64/636802492918868562.jpeg",
+    "icon": "https://cdn.modrinth.com/data/hvFnDODi/icon.png",
     "link": "https://modrinth.com/mod/lazydfu"
   },
   {
     "name": "Litematica",
     "description": "Litematica is a new schematic mod written from scratch, and it is primarily targeting light mod loaders like LiteLoader on 1.12.x, Rift on 1.13.x and Fabric on 1.14+.",
-    "icon": "https://cdn.modrinth.com/data/hvFnDODi/icon.png"
+    "icon": "https://media.forgecdn.net/avatars/thumbnails/181/712/64/64/636802492918868562.jpeg"
   },
   {
     "name": "Main Menu Credits",
