@@ -47,7 +47,9 @@ export default function MyModal(props: any) {
                   </div>
 
                   <div className="mt-4 flex gap-2 justify-center items-center">
-                    <a href="/latest/latest.zip" download>
+                    <a
+                      href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1BPX5UfQB3ngBmwbLUzhU4NK5E-gCYZqj"
+                      download>
                       <button
                         type="button"
                         className="text-white flex justify-center items-center py-2 px-4 bg-red-500 rounded-lg">
@@ -61,7 +63,9 @@ export default function MyModal(props: any) {
                         copied ? 'bg-green-600' : 'bg-red-500'
                       } transition text-white flex justify-center items-center py-2 px-4 rounded-lg`}
                       onClick={() => {
-                        copy('https://mods.pe3ep.ru/latest/multimc.zip')
+                        copy(
+                          'https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1Ba6hH6wPu7E5vrjnKkpTRBxaIIf4Dv8d'
+                        )
                         setCopied(true)
                         setTimeout(() => setCopied(false), 1500)
                       }}>
