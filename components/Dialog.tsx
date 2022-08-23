@@ -76,14 +76,14 @@ export default function MyModal(props: any) {
                       Ссылка MultiMC
                     </button>
                   </div>
-                  <div className="mt-4">
+                  <div className="mt-4 flex justify-center">
                     <iframe
-                      width={396}
-                      height={223}
+                      // width={396}
+                      // height={223}
                       src="https://www.youtube.com/embed/Ojh4kx1ILuc?controls=2&showinfo=0"
                       title="YouTube video player"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                      className="rounded-lg"
+                      className="rounded-lg w-[341px] h-[192px] md:w-[396px] md:h-[223px]"
                       allowFullScreen></iframe>
                   </div>
                 </Dialog.Panel>
