@@ -46,7 +46,7 @@ export default function MyModal(props: any) {
                     </p>
                   </div>
 
-                  <div className="mt-4 flex gap-2 justify-center items-center">
+                  <div className="mt-4 flex flex-col sm:flex-row gap-2 justify-center items-center">
                     <a
                       href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1BPX5UfQB3ngBmwbLUzhU4NK5E-gCYZqj"
                       download>
