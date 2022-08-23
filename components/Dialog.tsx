@@ -41,8 +41,14 @@ export default function MyModal(props: any) {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-neutral-300">
-                      Your payment has been successfully submitted. We’ve sent
-                      you an email with all of the details of your order.
+                      Тут вы можете загрузить подходящуюю под вас версию.{' '}
+                      <span className="text-red-500 font-bold underline underline-offset-3">
+                        <a
+                          target="_blank"
+                          href="https://media.discordapp.net/attachments/1007604728559046666/1011723463792279612/unknown.png?width=1118&height=904">
+                          Как установить модпак в MultiMC.
+                        </a>
+                      </span>
                     </p>
                   </div>
 
