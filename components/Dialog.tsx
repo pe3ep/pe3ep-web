@@ -17,7 +17,7 @@ export default function MyModal(props: any) {
             leave="ease-in duration-200"
             leaveFrom="opacity-100"
             leaveTo="opacity-0">
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
+            <div className="fixed inset-0 bg-black bg-opacity-75" />
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
@@ -54,7 +54,7 @@ export default function MyModal(props: any) {
 
                   <div className="mt-4 flex flex-col sm:flex-row gap-2 justify-center items-center">
                     <a
-                      href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1BPX5UfQB3ngBmwbLUzhU4NK5E-gCYZqj"
+                      href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1Mtpj_lPB4Mb9XpL4fbcdUgfJkWIlcZSH"
                       download>
                       <button
                         type="button"
@@ -70,7 +70,7 @@ export default function MyModal(props: any) {
                       } transition text-white flex justify-center items-center py-2 px-4 rounded-lg`}
                       onClick={() => {
                         copy(
-                          'https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1Ba6hH6wPu7E5vrjnKkpTRBxaIIf4Dv8d'
+                          'https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1KQjREdWAOf_v8D2TPvYUdqVyxj4rhQF3'
                         )
                         setCopied(true)
                         setTimeout(() => setCopied(false), 1500)

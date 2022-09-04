@@ -50,7 +50,7 @@ const Homepage = () => {
             </div>
             <div className="flex flex-col gap-3">
               <h1 className="font-manrope font-extrabold text-2xl text-center">
-                Modpack v1.1b
+                Modpack v1.2a
               </h1>
               <p className="leading-5 font-inter font-medium text-neutral-300 text-center">
                 Это мой личный модпак, который я использую каждый день на

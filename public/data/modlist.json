@@ -72,6 +72,12 @@
     "link": "https://modrinth.com/mod/antighost"
   },
   {
+    "name": "Anvil Display",
+    "description": "Adds useful information about anvil mechanics to the tooltips of some items.",
+    "icon": "https://cdn.modrinth.com/data/MODttosl/icon.png",
+    "link": "https://modrinth.com/mod/anvil-display"
+  },
+  {
     "name": "Auditory",
     "description": "A mod that expands and improves upon the sound and audio aspects of Minecraft.",
     "icon": "https://cdn.modrinth.com/data/1LjfkWOR/icon.png",
@@ -321,5 +327,53 @@
     "description": "A zoom mod with infinite customizability.",
     "icon": "https://cdn.modrinth.com/data/w7ThoJFB/25d48c335340c12566044c8f35df5102e72dc06c.png",
     "link": "https://modrinth.com/mod/zoomify"
+  },
+  {
+    "name": "Auth Me",
+    "description": "Authenticate yourself and re-validate your session.",
+    "icon": "https://cdn.modrinth.com/data/yjgIrBjZ/icon.png",
+    "link": "https://modrinth.com/mod/auth-me"
+  },
+  {
+    "name": "Bobber Begone",
+    "description": "A simple fabric client mod that removes the bobber render when hooked.",
+    "icon": "https://cdn.modrinth.com/data/setnaI8o/icon.png",
+    "link": "https://modrinth.com/mod/bobber-begone"
+  },
+  {
+    "name": "Bobby",
+    "description": "Allows for render distances greater than the server's view-distance.",
+    "icon": "https://cdn.modrinth.com/data/M08ruV16/icon.png",
+    "link": "https://modrinth.com/mod/bobby"
+  },
+  {
+    "name": "Clean F3",
+    "description": "Removes useless information from the debug screen.",
+    "icon": "https://cdn.modrinth.com/data/5lvjfaRs/icon.png",
+    "link": "https://modrinth.com/mod/clean-f3"
+  },
+  {
+    "name": "Enhanced Attack Indicator",
+    "description": "Uses the attack indicator for more than just melee attacks.",
+    "icon": "https://cdn.modrinth.com/data/eTy17BBS/icon.png",
+    "link": "https://modrinth.com/mod/enhanced-attack-indicator"
+  },
+  {
+    "name": "FCLS",
+    "description": "(Instantly) closes the loading terrain screen on world changing.",
+    "icon": "https://cdn.modrinth.com/data/blWBX5n1/59d501e12d238faae2c23fa3d1b0e2b97a1ef8d6.png",
+    "link": "https://modrinth.com/mod/forcecloseworldloadingscreen"
+  },
+  {
+    "name": "Make Bubbles Pop",
+    "description": "Client-side mod that makes bubble particles pop.",
+    "icon": "https://cdn.modrinth.com/data/gPCdW0Wr/4616c50230e3e716f02127a0e74f250470a07e85.png",
+    "link": "https://modrinth.com/mod/make_bubbles_pop"
+  },
+  {
+    "name": "StairAutoJump",
+    "description": "Turns on auto jump when in/on stairs so that you can move faster.",
+    "icon": "https://cdn.modrinth.com/data/shbn27fi/icon.png",
+    "link": "https://modrinth.com/mod/stairautojump"
   }
 ]
