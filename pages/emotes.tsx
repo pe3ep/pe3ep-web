@@ -3,6 +3,8 @@ import React from 'react'
 import { DownloadIcon } from '@heroicons/react/outline'
 import { EmojiHappyIcon } from '@heroicons/react/solid'
 import Head from 'next/head'
+import PageIntro from '../components/PageIntro'
+import SmilingFace from '../public/static/emoji/smiling_face.png'
 
 const emotes = () => {
   return (
@@ -10,21 +12,18 @@ const emotes = () => {
       <Head>
         <title>Эмоуты | Pe3ep</title>
       </Head>
-      <div className="h-52 grid place-content-center bg-topography">
-        <div className="flex items-center">
-          <EmojiHappyIcon className="h-8 w-8 md:h-10 md:w-10 mr-2" />
-          <h1 className="font-manrope font-bold text-3xl lg:text-4xl">
-            Эмоуты
-          </h1>
-        </div>
-      </div>
-      <div className="h-12 bg-neutral-900"></div>
+      <PageIntro
+        name="Эмоуты"
+        icon={SmilingFace}
+        blurDataURL="/static/emoji/smiling_face.png"
+      />
+      <div className="h-12"></div>
       <div className="max-w-5xl mx-auto flex flex-col justify-center px-2">
         <h1 className="text-center mb-4 font-manrope font-bold text-xl md:text-2xl">
           Браузеры
         </h1>
         <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-4">
-          <div className="border-2 border-neutral-800 shadow-lg rounded-lg p-4 flex flex-col justify-between">
+          <div className="border-2 border-neutral-800 bg-zinc-900 shadow-lg rounded-lg p-4 flex flex-col justify-between">
             <div className="flex flex-col gap-4">
               <Image
                 src="/chrome.svg"
@@ -50,7 +49,7 @@ const emotes = () => {
               Загрузить расширение
             </a>
           </div>
-          <div className="border-2 border-neutral-800 shadow-lg rounded-lg p-4 flex flex-col justify-between">
+          <div className="border-2 border-neutral-800 bg-zinc-900 shadow-lg rounded-lg p-4 flex flex-col justify-between">
             <div className="flex flex-col gap-4">
               <Image
                 src="/firefox.svg"
@@ -83,7 +82,7 @@ const emotes = () => {
           Смартфоны
         </h1>
         <div className="flex justify-center">
-          <div className="border-2 border-neutral-800 shadow-lg rounded-lg p-4 flex flex-col justify-between lg:max-w-lg">
+          <div className="border-2 border-neutral-800 bg-zinc-900 shadow-lg rounded-lg p-4 flex flex-col justify-between lg:max-w-lg">
             <div className="flex flex-col gap-4">
               <div className="flex justify-center">
                 <svg

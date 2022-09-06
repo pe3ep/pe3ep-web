@@ -1,0 +1,79 @@
+[
+  {
+    "command": "!sens",
+    "description": "Моя чуствительность в VALORANT",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "Nightbot",
+      "botBadge": "/badges/verified.png",
+      "botResponse": "@Pe3epWithYou 0.2 800 DPI / скоп 1.0 "
+    }
+  },
+  {
+    "command": "!crosshair",
+    "description": "Мой прицел в VALORANT",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "Nightbot",
+      "botBadge": "/badges/verified.png",
+      "botResponse": "@Pe3epWithYou *код прицела* "
+    }
+  },
+  {
+    "command": "!rank",
+    "description": "Мой текущий ранг в VALORANT",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "Nightbot",
+      "botBadge": "/badges/verified.png",
+      "botResponse": "@Pe3epWithYou Мэйн: Алмаз 1 / Альт: без ранга "
+    }
+  },
+  {
+    "command": "!discord",
+    "description": "Ссылка на мой Disocrd сервер.",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "Nightbot",
+      "botBadge": "/badges/verified.png",
+      "botResponse": "@Pe3epWithYou Ссылка на мой дискорд чат: https://pe3ep.ru/discord "
+    }
+  },
+  {
+    "command": "!emotes",
+    "description": "Ссылка на страницу для скачивания расширений для эмоутов в чате.",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "Nightbot",
+      "botBadge": "/badges/verified.png",
+      "botResponse": "@Pe3epWithYou Расширения для браузера, а также приложение для андройд для наикрутейших смайлов можно найти сдесь: https://pe3ep.ru/emotes"
+    }
+  },
+  {
+    "command": "!rules",
+    "description": "Правила моего чата и Discord сервера",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "Nightbot",
+      "botBadge": "/badges/verified.png",
+      "botResponse": "@Pe3epWithYou Правила моего чата находятся на моём сайте: https://pe3ep.ru/rules"
+    }
+  },
+  {
+    "command": "!commands",
+    "description": "Ссылка на эту страницу",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "Nightbot",
+      "botBadge": "img src=\"/badges/verified.png\" className=\"h-5 w-5\" />",
+      "botResponse": "@Pe3epWithYou Список и описание моих команд наглядно: https://pe3ep.ru/commands"
+    }
+  }
+]

@@ -15,7 +15,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="bg-neutral-900">
+      <body className="bg-black font-inter font-medium">
         <Main />
         <NextScript />
       </body>

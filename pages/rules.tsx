@@ -3,6 +3,8 @@ import { Tab } from '@headlessui/react'
 import { InformationCircleIcon } from '@heroicons/react/outline'
 import { BookOpenIcon, HashtagIcon } from '@heroicons/react/solid'
 import Head from 'next/head'
+import PageIntro from '../components/PageIntro'
+import BookOpen from '../public/static/emoji/book_open.png'
 
 const rules = () => {
   return (
@@ -10,14 +12,11 @@ const rules = () => {
       <Head>
         <title>Правила | Pe3ep</title>
       </Head>
-      <div className="h-52 grid place-content-center bg-topography">
-        <div className="flex items-center">
-          <BookOpenIcon className="h-8 w-8 md:h-10 md:w-10 mr-2" />
-          <h1 className="font-manrope font-bold text-3xl lg:text-4xl">
-            Правила
-          </h1>
-        </div>
-      </div>
+      <PageIntro
+        name="Правила"
+        icon={BookOpen}
+        blurDataURL="/static/emoji/book_open.png"
+      />
       <div className="h-12"></div>
       <div className="flex items-center flex-col px-2">
         <Tab.Group>
@@ -82,7 +81,7 @@ const rules = () => {
               )}
             </Tab>
           </Tab.List>
-          <Tab.Panels className="m-2 p-3 md:p-4 border-2 shadow-lg border-neutral-800 rounded-lg w-full max-w-2xl">
+          <Tab.Panels className="m-2 p-3 md:p-4 border-2 shadow-lg border-neutral-800 bg-zinc-900 rounded-lg w-full max-w-2xl">
             <Tab.Panel>
               <div className="flex">
                 <div className="flex flex-col gap-3">
@@ -145,7 +144,7 @@ const rules = () => {
         </Tab.Group>
       </div>
       <div className="flex justify-center">
-        <div className="mx-2 my-4 border-2 md:p-4 shadow-lg shadow-amber-900/25 border-amber-800 bg-amber-800/20 p-2 rounded-lg w-full max-w-2xl">
+        <div className="mx-2 my-4 border-2 md:p-4 shadow-lg shadow-amber-900/25 border-red-700 bg-red-900 p-2 rounded-lg w-full max-w-2xl">
           <div className="flex items-center">
             <InformationCircleIcon className="h-5 w-5 lg:h-6 lg:w-6 mr-2" />
             <h2 className="font-manrope font-bold text-lg lg:text-xl">Важно</h2>
