@@ -8,18 +8,7 @@ const commands = () => {
   const [commandList, setCommands]: any = useState()
 
   const getApiData = async () => {
-    const requestOptions = {
-      method: 'GET',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-      },
-    }
-    const response = await fetch(
-      'https://pe3ep.ru/data/commands.json',
-      requestOptions
-    )
+    const response = await fetch('https://www.pe3ep.ru/data/commands.json')
       .then((response) => response.json())
       .catch((e) => console.log(e))
 
