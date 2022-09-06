@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <div className="bg-neutral-900 text-neutral-50 selection:bg-red-500 selection:text-white antialiased">
+      <div className="text-neutral-50 selection:bg-red-500 selection:text-white antialiased">
         <Navigation>
           <Component {...pageProps} />
         </Navigation>
