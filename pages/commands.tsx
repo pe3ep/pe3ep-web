@@ -8,7 +8,7 @@ const commands = () => {
   const [commandList, setCommands]: any = useState()
 
   const getApiData = async () => {
-    const response = await fetch('https://pe3ep.ru/data/commands.json')
+    const response = await fetch('https://www.pe3ep.ru/data/commands.json')
       .then((response) => response.json())
       .catch((e) => console.log(e))
 
