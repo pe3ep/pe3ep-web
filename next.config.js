@@ -6,22 +6,27 @@ module.exports = {
       {
         source: '/discord',
         destination: 'https://discord.gg/k3u992g4dk',
-        permanent: false,
+        permanent: true,
       },
       {
         source: '/twitch',
         destination: 'https://twitch.tv/pe3epwithyou',
-        permanent: false,
+        permanent: true,
       },
       {
         source: '/github',
         destination: 'https://github.com/pe3ep',
-        permanent: false,
+        permanent: true,
       },
       {
         source: '/donate',
         destination: 'https://www.donationalerts.com/r/pe3ep',
-        permanent: false,
+        permanent: true,
+      },
+      {
+        source: '/tg',
+        destination: 'https://t.me/pe3epwithyou',
+        permanent: true,
       },
     ]
   },

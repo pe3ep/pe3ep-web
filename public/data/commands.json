@@ -72,7 +72,7 @@
       "authour": "Pe3epWithYou",
       "authourBadge": "/badges/streamer.png",
       "bot": "Nightbot",
-      "botBadge": "img src=\"/badges/verified.png\" className=\"h-5 w-5\" />",
+      "botBadge": "/badges/verified.png",
       "botResponse": "@Pe3epWithYou Список и описание моих команд наглядно: https://pe3ep.ru/commands"
     }
   }

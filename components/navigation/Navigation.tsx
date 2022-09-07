@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import MenuButton from './MenuButton'
+import { motion } from 'framer-motion'
 
 const menu = [
   { title: 'Главная', path: '/' },
@@ -25,16 +26,18 @@ const Navigation = ({ children }: any) => {
   return (
     <>
       <header
-        className={`fixed w-full z-50 transition border-b-2 border-transparent text-gray-50 font-manrope font-bold  ${
-          small ? 'bg-black/25 backdrop-blur-sm' : ''
+        className={`fixed w-full z-50 border-b-2 border-transparent text-gray-50 font-manrope font-bold  ${
+          small ? 'bg-black/50 backdrop-blur-md' : ''
         }`}>
         <div className="container mx-auto px-3">
           <div className="flex justify-between items-center py-4 lg:justify-start lg:space-x-10 select-none">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
-                <a className="focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-md transition hover:opacity-80 overflow-hidden">
+                <motion.a
+                  whileTap={{ scale: 0.9 }}
+                  className="focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-md transition hover:opacity-80 overflow-hidden">
                   <img src="/logo.png" className="h-10 w-auto" />
-                </a>
+                </motion.a>
               </Link>
             </div>
             <MenuButton />

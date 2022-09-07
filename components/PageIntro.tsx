@@ -11,7 +11,7 @@ const PageIntro = ({
   blurDataURL: string
 }) => {
   return (
-    <div className="h-64 grid place-content-center bg-topography">
+    <div className="h-64 grid place-content-center bg-zinc-900/50">
       <div className="flex flex-col items-center">
         <div className="w-16 h-16 mb-4">
           <Image
