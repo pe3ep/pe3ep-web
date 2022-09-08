@@ -1,5 +1,6 @@
 import React from 'react'
 import Image, { StaticImageData } from 'next/image'
+import { motion } from 'framer-motion'
 
 const PageIntro = ({
   name,
@@ -11,9 +12,16 @@ const PageIntro = ({
   blurDataURL: string
 }) => {
   return (
-    <div className="h-64 grid place-content-center bg-zinc-900/50">
+    <div className="pt-36 pb-24 grid place-content-center bg-zinc-900/50">
       <div className="flex flex-col items-center">
-        <div className="w-16 h-16 mb-4">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            transition: { duration: 0.5, ease: 'easeOut' },
+          }}
+          className="w-16 h-16 mb-4">
           <Image
             src={icon}
             height={64}
@@ -22,11 +30,18 @@ const PageIntro = ({
             blurDataURL={blurDataURL}
             placeholder="blur"
           />
-        </div>
+        </motion.div>
         <div className="flex items-center">
-          <h1 className="font-manrope font-bold text-3xl lg:text-4xl">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.35, ease: 'easeOut' },
+            }}
+            className="font-manrope font-bold text-3xl lg:text-4xl tracking-tighter">
             {name}
-          </h1>
+          </motion.h1>
         </div>
       </div>
     </div>
