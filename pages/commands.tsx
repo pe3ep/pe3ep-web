@@ -21,7 +21,7 @@ const commands = () => {
   return (
     <>
       <Head>
-        <title>Команды | Pe3ep</title>
+        <title>Команды</title>
       </Head>
 
       <PageIntro
@@ -35,7 +35,7 @@ const commands = () => {
           commandList.map((item: any, index: any) => (
             <div
               key={index}
-              className="p-4 border-2 border-neutral-800 bg-zinc-900 shadow-lg m-2 rounded-lg flex flex-col justify-between">
+              className="p-4 border-2 border-neutral-800 bg-zinc-900 shadow-lg m-2 rounded-lg flex flex-col justify-between gap-2">
               <div className="">
                 <h1 className="font-manrope font-bold text-3xl">
                   {item.command}
@@ -44,9 +44,9 @@ const commands = () => {
                   {item.description}
                 </p>
               </div>
-              <div className="mt-4 p-4 h-full bg-black/20 rounded-lg flex flex-col gap-1">
+              <div className="p-2 mb-auto flex flex-col gap-1">
                 <p className="font-inter flex items-center text-neutral-300">
-                  <span className="mr-1">
+                  <span className="mr-1 w-[18px] h-[18px]">
                     <img src={item.response.authourBadge} alt="" />
                   </span>
                   <span className="text-amber-500 font-semibold">
@@ -56,7 +56,7 @@ const commands = () => {
                 </p>
                 <p className="font-inter">
                   <span className="flex items-center">
-                    <span className="mr-1">
+                    <span className="mr-1 w-[18px] h-[18px]">
                       <img src={item.response.botBadge} alt="" />
                     </span>
                     <span className="text-indigo-700 font-semibold">
