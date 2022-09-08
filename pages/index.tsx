@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import Head from 'next/head'
 
 const index = () => {
   const container = {
@@ -57,12 +58,53 @@ const index = () => {
       title: 'Email',
       icon: '/static/emoji/email.png',
       color: 'bg-neutral-500/25',
-      link: 'mailto:buisness@pe3ep.ru',
+      link: 'mailto:ad@pe3ep.ru',
     },
   ]
 
   return (
     <>
+      <Head>
+        <title>Главная</title>
+        <meta
+          name="description"
+          content="Меня зовут Pe3ep. Я начинающий веб-разаботчик и стример."
+        />
+
+        <meta itemProp="name" content="Главная" />
+        <meta
+          itemProp="description"
+          content="Меня зовут Pe3ep. Я начинающий веб-разаботчик и стример."
+        />
+        <meta
+          itemProp="image"
+          content="https://media.discordapp.net/attachments/999632713189425152/1017335057188392990/sadasd.png?width=1609&height=905"
+        />
+
+        <meta property="og:url" content="https://www.pe3ep.ru" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Главная" />
+        <meta
+          property="og:description"
+          content="Меня зовут Pe3ep. Я начинающий веб-разаботчик и стример."
+        />
+        <meta
+          property="og:image"
+          content="https://media.discordapp.net/attachments/999632713189425152/1017335057188392990/sadasd.png?width=1609&height=905"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Главная" />
+        <meta
+          name="twitter:description"
+          content="Меня зовут Pe3ep. Я начинающий веб-разаботчик и стример."
+        />
+        <meta
+          name="twitter:image"
+          content="https://media.discordapp.net/attachments/999632713189425152/1017335057188392990/sadasd.png?width=1609&height=905"
+        />
+      </Head>
+
       <main>
         <div className="bg-zinc-900/50 pt-36 pb-44 md:pt-96 md:pb-80 grid gap-4 place-content-center">
           <motion.div
@@ -70,7 +112,7 @@ const index = () => {
             animate={{
               opacity: 1,
               scale: 1,
-              transition: { delay: 1.5, ease: 'easeOut', duration: 0.5 },
+              transition: { delay: 1.25, ease: 'easeOut', duration: 0.5 },
             }}
             className="flex justify-center">
             <Image src="/static/emoji/waving_hand.png" width={96} height={96} />
@@ -80,14 +122,22 @@ const index = () => {
             animate={{
               y: 0,
               opacity: 1,
-              transition: { delay: 0.5, ease: 'easeOut', duration: 1 },
+              transition: { delay: 0.25, ease: 'easeOut', duration: 1 },
             }}>
             <h1 className="font-manrope font-extrabold text-5xl md:text-7xl text-center tracking-tighter">
               Привет. Меня зовут Pe3ep
             </h1>
           </motion.div>
         </div>
-        <div className="h-24"></div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, transition: { delay: 1.25 } }}
+          className="flex justify-center items-center gap-2 py-12">
+          <Image src="/static/emoji/link.png" width={32} height={32} />
+          <h1 className="font-manrope font-extrabold text-2xl tracking-tighter">
+            Ссылки
+          </h1>
+        </motion.div>
         <section className="md:mx-auto max-w-4xl mx-4">
           <motion.div
             className="grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-6"
@@ -117,7 +167,7 @@ const index = () => {
             ))}
           </motion.div>
         </section>
-        <div className="h-24"></div>
+        <div className="h-12"></div>
       </main>
     </>
   )
