@@ -10,7 +10,7 @@ const emotes = () => {
   return (
     <div>
       <Head>
-        <title>Эмоуты | Pe3ep</title>
+        <title>Эмоуты</title>
       </Head>
       <PageIntro
         name="Эмоуты"
@@ -18,10 +18,14 @@ const emotes = () => {
         blurDataURL="/static/emoji/smiling_face.png"
       />
       <div className="h-12"></div>
-      <div className="max-w-5xl mx-auto flex flex-col justify-center px-2">
-        <h1 className="text-center mb-4 font-manrope font-bold text-xl md:text-2xl">
-          Браузеры
-        </h1>
+      <div className="max-w-5xl mx-auto flex flex-col justify-center px-4">
+        <div className="flex gap-2 justify-center">
+          <Image src="/static/emoji/web.png" width={32} height={32} />
+          <h1 className="text-center font-manrope font-bold text-xl md:text-2xl">
+            Браузеры
+          </h1>
+        </div>
+        <div className="h-12"></div>
         <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-4">
           <div className="border-2 border-neutral-800 bg-zinc-900 shadow-lg rounded-lg p-4 flex flex-col justify-between">
             <div className="flex flex-col gap-4">
@@ -77,10 +81,14 @@ const emotes = () => {
         </div>
       </div>
       <div className="h-12"></div>
-      <div className="max-w-5xl mx-auto flex flex-col justify-center px-2">
-        <h1 className="text-center mb-4 font-manrope font-bold text-xl md:text-2xl">
-          Смартфоны
-        </h1>
+      <div className="max-w-5xl mx-auto flex flex-col justify-center px-4">
+        <div className="flex gap-2 justify-center">
+          <Image src="/static/emoji/phone.png" width={32} height={32} />
+          <h1 className="text-center font-manrope font-bold text-xl md:text-2xl">
+            Смартфоны
+          </h1>
+        </div>
+        <div className="h-12"></div>
         <div className="flex justify-center">
           <div className="border-2 border-neutral-800 bg-zinc-900 shadow-lg rounded-lg p-4 flex flex-col justify-between lg:max-w-lg">
             <div className="flex flex-col gap-4">
