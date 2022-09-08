@@ -60,20 +60,12 @@ const MenuButton = () => {
             leave="transition ease-in duration-75 origin-top-right"
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95">
-            <Menu.Items className="absolute shadow-lg right-0 left-0 m-2 mt-4 p-2 rounded-lg flex gap-2 flex-col bg-neutral-900 border-2 border-neutral-700 ">
-              <Menu.Item>
-                {({ active }) => (
-                  <div className="flex items-center gap-1 flex-col py-4">
-                    <MapIcon className="h-8 w-8" />
-                    <h1 className="font-manrope text-xl font-bold">Меню</h1>
-                  </div>
-                )}
-              </Menu.Item>
+            <Menu.Items className="absolute shadow-2xl right-0 left-0 mx-4 mt-12 p-4 rounded-lg flex gap-4 flex-col bg-zinc-900 ">
               {menu.map((item, index) => (
                 <Menu.Item key={index}>
                   {({ active }) => (
                     <MyLink href={item.path}>
-                      <a className="flex items-center bg-neutral-800 rounded-md p-2">
+                      <a className="flex items-center bg-neutral-800 rounded-lg p-4">
                         {item.icon}
                         {item.title}
                       </a>

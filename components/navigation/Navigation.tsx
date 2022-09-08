@@ -6,9 +6,10 @@ import { motion } from 'framer-motion'
 
 const menu = [
   { title: 'Главная', path: '/' },
-  { title: 'Правила', path: '/rules' },
+  { title: 'Правила', path: '/rules', altPath: '/rules/discord' },
   { title: 'Эмоуты', path: '/emotes' },
   { title: 'Команды', path: '/commands' },
+  { title: 'Сборка', path: 'https://mods.pe3ep.ru/' },
 ]
 
 const Navigation = ({ children }: any) => {
@@ -26,30 +27,37 @@ const Navigation = ({ children }: any) => {
   return (
     <>
       <header
-        className={`fixed w-full z-50 border-b-2 border-transparent text-gray-50 font-manrope font-bold  ${
-          small ? 'bg-black/50 backdrop-blur-md' : ''
+        className={`transition fixed w-full z-50 border-b-2 border-transparent text-gray-50  font-medium  ${
+          small ? 'bg-black/25 backdrop-blur-md border-b-2 border-zinc-800' : ''
         }`}>
-        <div className="container mx-auto px-3">
-          <div className="flex justify-between items-center py-4 lg:justify-start lg:space-x-10 select-none">
+        <div className="container mx-auto px-6">
+          <div className="flex justify-between items-center py-8 lg:justify-start lg:space-x-10 select-none">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
                 <motion.a
-                  whileTap={{ scale: 0.9 }}
-                  className="focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-md transition hover:opacity-80 overflow-hidden">
+                  whileTap={{
+                    scale: 0.85,
+                    transition: { duration: 0.05, ease: 'easeInOut' },
+                  }}
+                  className="focus:outline-none focus-visible:ring focus-visible:ring-red-500 rounded-md transition overflow-hidden">
                   <img src="/logo.png" className="h-10 w-auto" />
                 </motion.a>
               </Link>
             </div>
             <MenuButton />
-            <nav className="hidden md:flex space-x-4 xl:space-x-8">
+            <nav className="hidden md:flex gap-2">
               {menu.map((item, index) => {
                 return (
                   <Link key={index} href={item.path}>
                     <a
-                      className={`cursor-pointer ${
+                      className={`transition cursor-pointer px-6 py-3 rounded-lg ${
                         router.pathname === item.path
-                          ? 'text-red-500 after:bg-red-500 after:block after:w-full after:rounded-lg after:h-[3px] after:-mb-4 after:mt-[14px]'
-                          : 'hover:text-red-500 transition-colors'
+                          ? 'text-red-500 bg-zinc-900'
+                          : 'hover:bg-zinc-900'
+                      } ${
+                        router.pathname === item.altPath
+                          ? 'text-red-500 bg-zinc-900'
+                          : 'hover:bg-zinc-900'
                       }`}>
                       {item.title}
                     </a>
