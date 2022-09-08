@@ -66,6 +66,28 @@
     }
   },
   {
+    "command": "!song",
+    "description": "Показывает песню, которая играет на стриме (реквесты)",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "pe3epbot",
+      "botBadge": "/badges/mod.png",
+      "botResponse": "🎶 Сейчас играет: [Песня] [Ссылка]. Закано: [Заказчик]."
+    }
+  },
+  {
+    "command": "!sr [Ссылка]",
+    "description": "Заказ своей песни на стрим",
+    "response": {
+      "authour": "Pe3epWithYou",
+      "authourBadge": "/badges/streamer.png",
+      "bot": "pe3epbot",
+      "botBadge": "/badges/mod.png",
+      "botResponse": "🎶 Pe3epWithYou Твой реквест был добавлен в очередь"
+    }
+  },
+  {
     "command": "!commands",
     "description": "Ссылка на эту страницу",
     "response": {
